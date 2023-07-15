@@ -1,4 +1,4 @@
-package br.comalura.forum.controller
+package br.com.alura.forum.controller
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RestController
 class HelloController {
 
     @GetMapping
-    fun hello():String {
-        return "Hello World 1"
+    fun hello(): String {
+        return "Hello World!"
     }
+
 }
